@@ -6,8 +6,6 @@ const helmet = require('helmet')
 const MOVIES = require('./movies.json')
 
 
-console.log(process.env.API_TOKEN)
-
 const app = express()
 
 app.use(morgan('dev'))
